@@ -1,0 +1,26 @@
+ul, ol, li {
+    text-decoration: none;
+}
+body, h1,h2,h3,h4,h5,p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family : 'roboto', 'Noto Sans Thai', 'Noto Sans KR', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 90%;
+        transition: all 0.3s;
+    }
+    #section .cont1 .left .bot {
+        flex-wrap: wrap;
+    }
+    #section .cont1 .left .bot .price {
+        width: calc((100% - 3.5px)/2);
+    }
+}
